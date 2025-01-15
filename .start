@@ -1,0 +1,3 @@
+cd /workspaces/Sunori-Docs
+npm install
+npm run dev
