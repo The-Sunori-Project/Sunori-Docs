@@ -10,6 +10,7 @@
     bottom: 0;
     font-family: 'Comfortaa', 'Verdana', Arial;
     font-weight: 200px;
+    overflow: scroll;
 }
 #doctitle{
     font-family: 'Space Mono', 'Times New Roman', Arial;
@@ -19,14 +20,22 @@
     display: block;
     text-align: center;
 }
-#docp{
+.docp{
     text-align: center;
+}
+.docimg{
+    width: 600px;
+    border: solid 2px;
+    border-color: inherit;
+    margin-left: 18vw;
 }
 
 /* Doc List */
 #doclist{
     border: solid 2px;
     border-color: inherit;
+    border-left: none;
+    border-bottom: none;
     min-width: 21vw;
     min-height: 90vh;
     overflow: scroll;
@@ -39,7 +48,7 @@
     text-align: left;
 }
 #doclist ul{
-    list-style-type: disc;
+    list-style-type: none;
 }
 #doclist li:hover{
     transform: scale(1.1, 1.1);
